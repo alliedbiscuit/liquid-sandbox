@@ -51,8 +51,6 @@
     location.href = path + canonical;
   }
 
-  document.getElementById('lang-select').addEventListener('change', changeLang);
-  document.getElementById('mobile-lang-select').addEventListener('change', changeLang);
 }());
 
 (function() {
